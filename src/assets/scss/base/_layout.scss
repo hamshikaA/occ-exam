@@ -1,0 +1,40 @@
+// **************************************
+// LAYOUT STYLES
+// **************************************
+@use "../utilities" as *;
+
+/*------FLEXBOX LAYOUT STYLES-----------*/
+
+.flex__container {
+  @include flex_me($dir: column);
+}
+
+/*------GRID LAYOUT STYLES-----------*/
+
+.grid__container {
+  @extend %ctr-grid-content;
+  min-height: 100vh;
+}
+
+.main__grid--container {
+  display: grid;
+  grid-template-columns: minmax(300px, 350px);
+  grid-template-areas:
+    "intro__container"
+    "form__container";
+  @include mq("md") {
+    margin-top: px-to-rems(100px);
+    max-width: 70rem;
+    gap: 3rem;
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas: "intro__container form__container";
+  }
+}
+
+.intro__container {
+  grid-area: intro__container;
+}
+
+.form__container {
+  grid-area: form__container;
+}

@@ -1,0 +1,23 @@
+// **************************************
+// THEME COLOR MAP
+// **************************************
+$colors: (
+  // Green Form button color & red error color
+  primary: (
+    error: hsl(0, 100%, 74%),
+    base: hsl(154, 59%, 51%) 
+  ),
+  // Accent Intro Button Color
+  accent: (
+    text: hsl(248, 32%, 49%)
+  ),
+  // Neutral Text Colors
+  text: (
+    normal: hsl(246, 25%, 77%),
+    dark: hsl(249, 10%, 26%) 
+  ),
+  // White background form color
+  light: (
+    normal: hsl(255, 100%, 100%),
+  ),
+);

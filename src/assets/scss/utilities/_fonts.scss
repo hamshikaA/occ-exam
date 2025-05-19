@@ -1,0 +1,25 @@
+// **************************************
+// FONT MAPS
+// **************************************
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+$font-love: (
+  f-size: (
+    normal: 1rem,
+  ),
+  f-weight: (
+    normal: 400,
+    medium: 500,
+    bold: 600,
+    very-bold: 700,
+  ),
+  font: (
+    main: "Poppins",
+  ),
+  l-weight: (
+    sm-space: 1.3,
+    normal-space: 1.5,
+    lg-space: 1.7,
+  ),
+);

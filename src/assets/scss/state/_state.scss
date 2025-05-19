@@ -1,0 +1,11 @@
+// **************************************
+// STATE STYLES
+// **************************************
+
+.show__error-input {
+  position: relative;
+  border: 2px solid var(--clr-primary-error) !important;
+  &::placeholder {
+    opacity: 0;
+  }
+}
